@@ -10,7 +10,7 @@ const Achievement = () => {
     useEffect(() => {
         const timeOutId = setTimeout(() => {
             setClients(15);
-            setExperience(3);
+            setExperience(2);
             setProjects(20);
         }, 3000);
 

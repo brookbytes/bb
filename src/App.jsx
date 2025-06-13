@@ -8,6 +8,7 @@ import Production from "./Components/Production"
 import Testimonial  from "./Components/Testimonials"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
+import Pro from "./Components/pro"
 import { useEffect } from "react"
 import Aos from "aos"
 import "aos/dist/aos.css"
@@ -27,7 +28,7 @@ function App() {
      <Hero/>
      <About/>
      <Services/>
-     <Production />
+    
      <Projects/>
      <Testimonial/>
      <Contact/>

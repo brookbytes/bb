@@ -113,8 +113,9 @@ We design fast, mobile-friendly websites and help brands grow with smart search 
 Building digital success — one click at a time.
           </p>
           <div className="flex-center buttons-wrapper">
-            <Link to='services' smooth={true} className='btn primary' data-aos='fade-up' data-aos-delay='300'>Learn more</Link>
-            <Link to='contact' smooth={true} className='btn secondary' data-aos='fade-up' data-aos-delay='400'>Get started</Link>
+          <Link to='contact' smooth={true} className='btn secondary' data-aos='fade-up' data-aos-delay='400'>Contact Us</Link>
+            <Link to='services' smooth={true} className='btn primary' data-aos='fade-up' data-aos-delay='300'>Get started</Link>
+            
           </div>
         </div>
         <div className="column hero-image" data-aos='fade-left' data-aos-delay='100'>
