@@ -4,6 +4,7 @@ import About from "./Components/About"
 import Skill from "./Components/Skill"
 import Services from "./Components/Services"
 import Projects from "./Components/Projects"
+import Production from "./Components/Production"
 import Testimonial  from "./Components/Testimonials"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
@@ -26,7 +27,7 @@ function App() {
      <Hero/>
      <About/>
      <Services/>
-     <Skill/>
+     <Production />
      <Projects/>
      <Testimonial/>
      <Contact/>

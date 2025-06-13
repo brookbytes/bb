@@ -1,0 +1,115 @@
+.production-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  background-color: #121212;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #e0e0e0;
+}
+
+.production-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  width: 320px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  color: #9c9c9c;
+}
+
+.production-card.zoom {
+  transform: scale(1.05);
+}
+
+.production-card .picture img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #333;
+}
+
+.production-card .details {
+  padding: 1rem;
+}
+
+.production-card .title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.production-card .description {
+  font-size: 1rem;
+  color: #bbb;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.production-card .stack-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.production-card .stack-box {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #ccc;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.production-card .stack-icon {
+  font-size: 1.2rem;
+}
+
+.production-card .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.production-card .btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  color: #fff;
+}
+
+.production-card .btn.primary {
+  background: linear-gradient(90deg, #00ff00 0%, #00cc00 100%);
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.4);
+}
+
+.production-card .btn.primary:hover {
+  background: linear-gradient(90deg, #00cc00 0%, #009900 100%);
+  box-shadow: 0 6px 20px rgba(0, 204, 0, 0.6);
+}
+
+.production-card .btn-share {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  color: #ccc;
+  border-radius: 6px;
+  width: 40px;
+  height: 40px;
+}
+
+.production-card .btn-share:hover {
+  background-color: #444;
+}

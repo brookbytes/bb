@@ -882,6 +882,49 @@ export const socialHandles = [
     },
 ];
 
+export const productions = [
+  {
+    id: 1,
+    title: 'Production Alpha',
+    image: 'https://via.placeholder.com/300x200.png?text=Production+Alpha',
+    category: "Category A",
+    description: `Description for Production Alpha. This is a sample production project.`,
+    demoLink: "https://example.com/production-alpha",
+    stack: [
+      {
+        name: "React",
+        icon: <FaReact />,
+        iconColor: "skyblue",
+      },
+      {
+        name: "Node.js",
+        icon: <FaNodeJs />,
+        iconColor: "green",
+      },
+    ]
+  },
+  {
+    id: 2,
+    title: 'Production Beta',
+    image: 'https://via.placeholder.com/300x200.png?text=Production+Beta',
+    category: "Category B",
+    description: `Description for Production Beta. This is another sample production project.`,
+    demoLink: "https://example.com/production-beta",
+    stack: [
+      {
+        name: "Next.js",
+        icon: <SiNextdotjs />,
+        iconColor: "black",
+      },
+      {
+        name: "TypeScript",
+        icon: <SiTypescript />,
+        iconColor: "blue",
+      },
+    ]
+  },
+]
+
 export const footer = [
   {
     title:"Explore",
