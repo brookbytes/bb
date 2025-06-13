@@ -38,7 +38,7 @@ const Production = () => {
       <div className="wrapper">
         <div className="section-header">
           <h1 className="heading-1">
-            <span className="gradient-text">Production</span>
+            <span className="gradient-text">Our Productions</span>
           </h1>
         </div>
         <ProductionNavigation tabs={getTabs()} onChange={setProductions} />
