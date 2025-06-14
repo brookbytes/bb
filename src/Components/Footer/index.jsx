@@ -3,7 +3,8 @@ import "./Footer.css"
 import Logo from '../../Commons/Logo'
 import SocialHandles from '../../Commons/SocialHandles'
 import { footer } from '../../sources'
-import { Link } from 'react-scroll'
+import { Link as ScrollLink } from 'react-scroll'
+import { Link as RouterLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -19,12 +20,18 @@ const Footer = () => {
               <h3 className="muted title">{list.title}</h3>
               {
                 list.routes.map((route, index) => (
-                  <Link to={route.id || ""} smooth={true} className="route" key={index}>
-                  {route.name}
-                  </Link>
+                  route.url ? (
+                    <RouterLink to={route.url} className="route" key={index}>
+                      {route.name}
+                    </RouterLink>
+                  ) : (
+                    <ScrollLink to={route.id || ""} smooth={true} className="route" key={index}>
+                      {route.name}
+                    </ScrollLink>
+                  )
                 ))
               }
-              </div>
+            </div>
           ))
         }
       </div>

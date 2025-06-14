@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import "./Hero.css";
 import { Link } from 'react-scroll';
-import me from '../../assets/me.png';
 import Achievement from '../../Commons/Achievement';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 const Hero = () => {
   const [text, setText] = useState('Software Engineer.');
@@ -118,9 +118,7 @@ Building digital success — one click at a time.
             
           </div>
         </div>
-        <div className="column hero-image" data-aos='fade-left' data-aos-delay='100'>
-          <img src={me} alt="Awe Joseph"/>
-        </div>
+       
       </div>
       <div className="achievement-cluster">
         <div className="wrapper">

@@ -12,7 +12,7 @@ const Services = () => {
             <span className="gradient-text">Services</span>
           </h1>
           <h4 className="sub-title muted" data-aos='fade-right'>
-          I turn your ideas and desires into a unique project that inspires 
+          We turns your ideas and desires into a unique project that inspires 
           you and engages your customers.
           </h4>
         </div>

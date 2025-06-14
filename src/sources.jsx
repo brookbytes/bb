@@ -80,9 +80,7 @@ export const services = [
   {
     name: "Mobile App Development",
     icon: <TbDeviceMobileCode/>,
-    description: `I develop cross platform mobile applications that provide seamless user experiences 
-    across different devices. Leveraging versatile development frameworks, I craft seamless, high-performance 
-    applications that deliver an exceptional user experience on both iOS and Android platforms.`,
+    description: `We specialize in developing cross-platform mobile applications that ensure seamless performance and consistent user experiences across all devices. Using powerful and flexible development frameworks, our team crafts high-performance apps that run smoothly on both iOS and Android platforms, tailored to meet your business needs.`,
   },
   {
     name: "Web Development",
@@ -92,30 +90,23 @@ export const services = [
   {
     name: "SEO Optimization",
     icon: <IoShieldCheckmark/>,
-    description: `I implement robust security measures to protect your digital assets from potential threats. 
-    My expertise in cybersecurity ensures that your applications and systems are fortified against 
-    vulnerabilities, giving you peace of mind in an increasingly digital world.`,
+    description: `We implement robust security measures to safeguard your digital assets from potential threats. With expertise in cybersecurity, our team ensures that your applications and systems are well-protected against vulnerabilities—providing you with confidence and peace of mind in today’s digital landscape.`,
   },
   {
     name: "UI/UX Design",
     icon: <FaPaintBrush/>,
-    description: `I create intuitive and visually appealing user interfaces that enhance user experience. 
-    By combining aesthetics with functionality, I ensure your digital products not only look great but also 
-    provide seamless interaction for your users.`,
+    description: `We design intuitive and visually engaging user interfaces that elevate the user experience. By blending aesthetics with functionality, we ensure your digital products not only look stunning but also offer smooth and seamless user interactions.`,
   },
   {
     name: "Content Creation",
     icon: <TfiWrite/>,
-    description: `I craft compelling digital content that engages your audience and strengthens your brand. 
-    Whether it's blog posts, social media content, or technical documentation, I ensure your message is 
-    clear, concise, and impactful.`,
+    description: `We craft compelling digital content that captivates your audience and reinforces your brand identity. From blog posts and social media content to technical documentation, we ensure your message is clear, concise, and impactful across all platforms.`,
   },
   
   {
     name: "API Development",
     icon: <FaServer/>,
-    description: `I create robust, well documented APIs that power seamless communication between different 
-    software systems. Whether RESTful or GraphQL, my APIs are designed for efficiency, scalability, and ease of integration.`,
+    description: `We develop robust, well-documented APIs that enable seamless communication between software systems. Whether RESTful or GraphQL, our APIs are built for efficiency, scalability, and easy integration—ensuring smooth backend operations for your applications.`,
   },
   
   
@@ -801,7 +792,7 @@ export const clients = [
   },
   {
     image: client2,
-    name: 'Irfan',
+    name: 'Imran',
     position: 'Client',
     review: `I can't speak highly enough of Brook Bytes' work. They transformed our outdated website into a modern, user-friendly interface that has significantly boosted customer engagement. Their attention to detail and commitment to delivering a secure, high-performance solution was evident throughout the entire project.`
   },
@@ -927,9 +918,9 @@ export const footer = [
   {
       title:"Others",
       routes:[
-        {name:"Privacy Policy"},
-        {name:"Terms and Conditions"},
-        {name:"Cookie Policy"},
+        {name:"Privacy Policy", url:"/privacy-policy"},
+        {name:"Terms and Conditions", url:"/terms-and-conditions"},
+        {name:"Cookie Policy", url:"/cookie-policy"},
       ]
     },
 ]
